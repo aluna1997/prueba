@@ -1,0 +1,14 @@
+class Alumnos:
+	cinta = ""
+	nombre = ""
+	apellido = ""
+	edad = ""
+
+	def __init__(self, nombre, apellido, edad, cinta): #init es el constructor
+       self.nombre = nombre
+       self.apellido = apellido
+       self.cinta = cinta
+       self.edad = edad
+
+   def getFullDates(self):
+       return "{0} {1} {3} {4}".format(self.nombre, self.apellido, self.edad, self.cinta)	
