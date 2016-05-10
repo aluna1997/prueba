@@ -4,3 +4,4 @@ class Main:
 	tusDatos = Alumnos("Felipe","Luna","18","Roja es la buena :)")	
 	print(tusDatos.getFullDates())
 #Prueba Git
+clave = 213232
